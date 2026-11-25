@@ -3,7 +3,7 @@
 Aplicación web para la gestión de ventas, alquileres de herramientas, inventario, compras, caja y cobranzas. Está construida con PHP & MySQL (Framework: Laravel, Livewire, Tailwindcss, AdminLTE).
 
 ## Requisitos
-
+» De PREFERENCIA usar XAMPP
 - PHP 8.3 o superior con las extensiones requeridas por Laravel y Composer.
 - Composer.
 - Node.js y npm.
@@ -40,7 +40,9 @@ Aplicación web para la gestión de ventas, alquileres de herramientas, inventar
 
    El seeder de demostración reinicia y vuelve a poblar tablas del sistema. No lo ejecutes sobre una base con información que debas conservar.
 
-Para desarrollo, inicia Vite en otra terminal con `npm run dev`. También puedes iniciar Laravel con `php artisan serve` y abrir la URL que indique Artisan. En Apache, configura el sitio para que su raíz pública sea la carpeta `public` del proyecto.
+Para desarrollo, inicia Vite en otra terminal con `npm run dev`. 
+También puedes iniciar Laravel con `php artisan serve` y abrir la URL que indique Artisan. 
+En Apache, configura el sitio para que su raíz pública sea la carpeta `public` del proyecto.
 
 ## Verificación
 
