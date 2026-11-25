@@ -1,6 +1,6 @@
 # Ferretería Jack Sparkys
 
-Aplicación web para la gestión de ventas, alquileres de herramientas, inventario, compras, caja y cobranzas. Está construida con Laravel, Livewire y MySQL.
+Aplicación web para la gestión de ventas, alquileres de herramientas, inventario, compras, caja y cobranzas. Está construida con PHP & MySQL (Framework: Laravel, Livewire, Tailwindcss, AdminLTE).
 
 ## Requisitos
 
