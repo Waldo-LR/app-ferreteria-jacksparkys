@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('tclientes', function (Blueprint $table) {
+            $table->id('id_cliente');
+            $table->string('tipo_documento', 20);
+            $table->string('dni_ruc', 20)->unique();
+            $table->string('nombres', 150);
+            $table->string('email', 100)->nullable();
+            $table->string('telefono', 20)->nullable();
+            $table->string('direccion', 200)->nullable();
+            $table->date('fecha_nacimiento')->nullable();
+            $table->boolean('activo')->default(true);
+            $table->dateTime('fecha_baja')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('tclientes');
+    }
+};
